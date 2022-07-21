@@ -1,6 +1,6 @@
 // popular movies bookmark
 
-let moviesPopulardata = JSON.parse(localStorage.getItem("moviesPopular"));
+let moviesPopulardata = JSON.parse(localStorage.getItem("moviesPopular")) || {};
 console.log("209", moviesPopulardata);
 
 let content = document.getElementById("content");
@@ -42,7 +42,7 @@ for (let i = 0; i < moviesPopulardata.length; i++) {
 }
 // airing today bookmarks
 
-let airingTodaydata = JSON.parse(localStorage.getItem("airingToday"));
+let airingTodaydata = JSON.parse(localStorage.getItem("airingToday")) || {};
 
 for (let i = 0; i < airingTodaydata.length; i++) {
   //   console.log("ln217", moviesPopulardata[i].id);
@@ -79,7 +79,7 @@ for (let i = 0; i < airingTodaydata.length; i++) {
 }
 // getupcoming Bookmarks
 
-let getupcomingdata = JSON.parse(localStorage.getItem("getUpcoming"));
+let getupcomingdata = JSON.parse(localStorage.getItem("getUpcoming")) || {};
 
 for (let i = 0; i < getupcomingdata.length; i++) {
   //   console.log("ln217", moviesPopulardata[i].id);
@@ -116,7 +116,7 @@ for (let i = 0; i < getupcomingdata.length; i++) {
 }
 
 // nowpalying bookmarks
-let nowplayingdata = JSON.parse(localStorage.getItem("nowPlaying"));
+let nowplayingdata = JSON.parse(localStorage.getItem("nowPlaying")) || {};
 
 for (let i = 0; i < nowplayingdata.length; i++) {
   //   console.log("ln217", moviesPopulardata[i].id);
@@ -153,7 +153,7 @@ for (let i = 0; i < nowplayingdata.length; i++) {
 }
 
 // ontv bookmarks
-let onTvdata = JSON.parse(localStorage.getItem("onTv"));
+let onTvdata = JSON.parse(localStorage.getItem("onTv")) || {};
 
 for (let i = 0; i < onTvdata.length; i++) {
   //   console.log("ln217", moviesPopulardata[i].id);
@@ -190,7 +190,7 @@ for (let i = 0; i < onTvdata.length; i++) {
 
 // popular tv bookmarks
 
-let popularTvdata = JSON.parse(localStorage.getItem("popularTv"));
+let popularTvdata = JSON.parse(localStorage.getItem("popularTv")) || {};
 for (let i = 0; i < popularTvdata.length; i++) {
   //   console.log("ln217", moviesPopulardata[i].id);
   //   console.log("ln218", Number(bookmarkeys[i]));
@@ -225,7 +225,7 @@ for (let i = 0; i < popularTvdata.length; i++) {
   }
 }
 
-let topRateddata = JSON.parse(localStorage.getItem("topRated"));
+let topRateddata = JSON.parse(localStorage.getItem("topRated")) || {};
 
 for (let i = 0; i < topRateddata.length; i++) {
   //   console.log("ln217", moviesPopulardata[i].id);
@@ -263,7 +263,7 @@ for (let i = 0; i < topRateddata.length; i++) {
 
 // top rated tv    topRatedTv
 
-let topRatedTvdata = JSON.parse(localStorage.getItem("topRatedTv"));
+let topRatedTvdata = JSON.parse(localStorage.getItem("topRatedTv")) || {};
 
 for (let i = 0; i < topRatedTvdata.length; i++) {
   //   console.log("ln217", moviesPopulardata[i].id);
