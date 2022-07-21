@@ -43,6 +43,10 @@ body {
 .header-left-people,
 .header-left-more {
   position: relative;
+  cursor: pointer;
+}
+#home {
+  cursor: pointer;
 }
 
 .header-left-movies > span,
@@ -72,6 +76,9 @@ body {
   color: #000;
   border-radius: 6px;
   width: 10em;
+  cursor: pointer;
+}
+.header-right-plus {
   cursor: pointer;
 }
 /* header css ends */
@@ -160,10 +167,4 @@ h5 {
 
 .footer-section-one-text {
   margin-top: 2em;
-}
-
-#home,
-#header-left-movies-id,
-.header {
-  cursor: pointer;
 }

@@ -13,7 +13,6 @@ body {
   position: sticky;
   top: 0;
   z-index: 1;
-  cursor: pointer;
 }
 
 .header-left {
@@ -47,6 +46,7 @@ body {
 .header-left-people,
 .header-left-more {
   position: relative;
+  cursor: pointer;
 }
 
 .header-left-movies > span,
@@ -76,6 +76,9 @@ body {
   color: #000;
   border-radius: 6px;
   width: 10em;
+  cursor: pointer;
+}
+.header-right-plus {
   cursor: pointer;
 }
 
