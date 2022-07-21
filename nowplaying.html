@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;1,500&family=Quicksand:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <link rel="stylesheet" href="./assets/css/moviesPopular.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-left">
+        <div class="header-left-icon">
+          <img
+            id="home"
+            src="./assets/images/tmdbicon.jpeg"
+            alt="loading"
+            width="110"
+            height="45"
+          />
+        </div>
+
+        <div class="header-left-movies" id="header-left-movies-id">
+          <span>Movies</span>
+          <div class="hover-movie-display" id="movies-section-display">
+            <div id="popular"><span>Popular</span></div>
+            <div id="now-playing"><span>Now Playing</span></div>
+            <div id="upcoming">Upcoming</div>
+            <div id="top-rated">Top Rated</div>
+          </div>
+        </div>
+
+        <div class="header-left-tv-shows" id="header-left-tv-shows-id">
+          <span>TV Shows</span>
+          <div class="hover-tv-display" id="tv-section-display">
+            <div id="popular-tv"><span>Popular</span></div>
+            <div id="airing-today"><span>Airing Today</span></div>
+            <div id="on-tv">On Tv</div>
+            <div id="top-rated-tv">Top Rated</div>
+          </div>
+        </div>
+        <div class="header-left-people" id="header-left-people-shows-id">
+          <span>People</span>
+          <div class="hover-people-display" id="people-section-display">
+            <div id="popular-people"><span>Popular People</span></div>
+          </div>
+        </div>
+        <!-- <div class="header-left-more" id="header-left-more-shows-id">
+          <span>More</span>
+          <div class="hover-more-display" id="more-section-display">
+            <div id="discussions"><span>Discussions</span></div>
+            <div id="leaderboard"><span>Leaderboard</span></div>
+            <div id="support">Support</div>
+            <div id="api">Api</div>
+          </div>
+        </div> -->
+      </div>
+      <div class="header-right">
+        <div class="header-right-plus" id="my-bookmarks">
+          <span>My Bookmarks</span>
+        </div>
+        <div class="header-right-language"><span>En</span></div>
+        <div class="header-right-login"><span>Login</span></div>
+        <div class="header-right-Join Tmdb"><span>Join Tmdb</span></div>
+        <!-- <div class="header-right-search"><span>Search</span></div> -->
+      </div>
+    </div>
+    <div id="content"></div>
+    <div class="footer">
+      <div class="footer-section-one">
+        <div class="footer-section-one-image">
+          <img
+            class="footer-section-one_image"
+            src="./assets/images/thdbfooter.jpg"
+            alt="loading"
+          />
+        </div>
+        <div class="footer-section-one-text">
+          <span class="footer-section-one_text">JOIN THE COMMUNITY</span>
+        </div>
+      </div>
+      <div class="footer-section-two">
+        <h3>THE BASICS</h3>
+        <h5>About Tmdb</h5>
+        <h5>Contact Us</h5>
+        <h5>Support Forums</h5>
+        <h5>API</h5>
+        <h5>System Status</h5>
+      </div>
+      <div class="footer-section-three">
+        <h3>GET INVOLVED</h3>
+        <h5>Contribution Bible</h5>
+        <h5>Add New Movie</h5>
+        <h5>Add New Tv Show</h5>
+      </div>
+      <div class="footer-section-four">
+        <h3>COMMUNITY</h3>
+        <h5>Guidlines</h5>
+        <h5>Discussions</h5>
+        <h5>Leaderboard</h5>
+        <h5>Twitter</h5>
+      </div>
+      <div class="footer-section-five">
+        <h3>LEGAL</h3>
+        <h5>Terms Of Use</h5>
+        <h5>API Terms Of Uses</h5>
+        <h5>Privacy Policy</h5>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./assets/script/nowplaying.js"></script>
